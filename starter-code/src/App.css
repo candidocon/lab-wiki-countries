@@ -21,7 +21,17 @@
 .App-link {
   color: #61dafb;
 }
-
+.scroll-div {
+  max-height: 89vh;
+  overflow: scroll;
+  text-align: left;
+}
+.row {
+  max-width: 100%;
+}
+.table {
+  text-align: left;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
